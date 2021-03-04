@@ -1,0 +1,12 @@
+(setf a "all")
+(setf b "these")
+(setf c "problems")
+(setf d ())
+
+(print (cons a(cons b (cons c d))))
+(terpri)
+(print(cons a (cons (cons b d) (cons c d))))
+(terpri)
+(print(cons (cons a (cons b d)) (cons c d)))
+(terpri)
+(print (cons (cons a(cons b (cons c d))) d))
